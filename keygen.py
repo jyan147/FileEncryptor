@@ -16,7 +16,7 @@ from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 def gen_key():
     key = Fernet.generate_key()
     print(key)
-    with open("key.key", "wb") as key_file:
+    with open("secret.key", "wb") as key_file:
         key_file.write(key)
     key_file.close()
 
