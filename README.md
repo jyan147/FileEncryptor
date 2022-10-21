@@ -1,5 +1,7 @@
 # FileEncryptor
+
 You can encrypt your files with your own key. Please generate a symetric fernet key before using.
+
 
 1. Generate key using keygen.py
 
