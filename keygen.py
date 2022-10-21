@@ -20,7 +20,7 @@ def gen_key():
         key_file.write(key)
     key_file.close()
 
-#Loads the key from the current directory named "key.key"
+#Loads the key from the current directory named "secret.key"
 def load_key():
     return open("secret.key", "rb").read()
 
